@@ -1,0 +1,17 @@
+---
+layout: default
+title: About
+permalink: /gallery/
+---
+
+<h1>Gallery</h1>
+
+{% for art in site.data.art %}
+  <div class="gallery-item">
+    <div class="caption">
+      <h2>{{art.title}}</h2>
+      <h3>{{art.subtitle}}</h3>
+    </div>
+    <img src="https://via.placeholder.com/300x300">
+  </div>
+{% endfor %}
