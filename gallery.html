@@ -6,10 +6,10 @@ permalink: /gallery/
 
 {% for art in site.data.art %}
   <div class="gallery-item">
+    <img src="/assets/{{art.filename}}">
     <div class="caption">
       <h2>{{art.title}}</h2>
       <h3>{{art.subtitle}}</h3>
     </div>
-    <img src="/assets/{{art.filename}}">
   </div>
 {% endfor %}

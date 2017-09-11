@@ -6,5 +6,5 @@ layout: default
 ---
 
 <a href="/gallery">
-  <img src="/assets/jesus.png">
+  <img class="jesus" src="/assets/jesus.png">
 </a>

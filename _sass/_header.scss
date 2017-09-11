@@ -53,3 +53,10 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .links li {
+    width: 100%;
+    border-right: none;
+  }
+}

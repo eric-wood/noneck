@@ -3,8 +3,9 @@
   align-items: center;
   margin-bottom: 100px;
   
-  &:nth-child(even) {
+  &:nth-child(odd) {
     flex-direction: row-reverse;
+
     .caption {
       text-align: right;
     }
@@ -22,5 +23,27 @@
   
   .caption {
     width: 50%;
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .gallery-item {
+    justify-content: center;
+    flex-direction: column !important;
+    margin-bottom: 20px;
+
+    .caption {
+      width: 100%;
+      margin: 0;
+
+      h2, h3 {
+        text-align: center;
+      }
+    }
+
+    img {
+      max-width: 100%;
+    }
   }
 }
