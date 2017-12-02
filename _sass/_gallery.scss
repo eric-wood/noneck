@@ -13,7 +13,7 @@
   
   img {
     margin: 5px;
-    border: solid black 3px;
+    border: solid black 2px;
     transition: border-color 0.5s;
   
     &:hover {
@@ -24,6 +24,14 @@
   .caption {
     width: 50%;
     margin: 0 30px;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 14px;
+    }
   }
 }
 
