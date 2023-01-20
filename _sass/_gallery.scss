@@ -15,6 +15,7 @@
     margin: 5px;
     border: solid black 2px;
     transition: border-color 0.5s;
+    max-width: 700px;
   
     &:hover {
       border-color: gold;
